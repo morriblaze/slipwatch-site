@@ -1,0 +1,11 @@
+/* Help page look. Loaded by astro.config.mjs (customCss). */
+
+/* Section headings sized to sit under the page title, not compete with it (Joanna, 2026-10-12/13). */
+:root {
+	--sl-text-h2: var(--sl-text-2xl);
+	--sl-text-h3: var(--sl-text-xl);
+	--sl-text-h4: var(--sl-text-lg);
+}
+
+/* Column names in tables stay on one line. */
+.sl-markdown-content td:first-child { white-space: nowrap; }

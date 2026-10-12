@@ -33,7 +33,7 @@ const menu = [
 	},
 	{
 		label: 'Help',
-		items: ['help/questions-and-problems', 'help/what-slipwatch-can-see-and-change'],
+		items: ['help/common-questions', 'help/what-slipwatch-can-see-and-change'],
 	},
 ];
 
@@ -64,8 +64,12 @@ export default defineConfig({
 		starlight({
 			title: 'Slipwatch',
 			sidebar,
+			// Click-to-enlarge for screenshots (public/zoom.js). A local file, nothing from other sites.
+			head: [{ tag: 'script', attrs: { src: '/zoom.js', defer: true } }],
 			// No search box yet: the menu shows every page at a glance.
 			pagefind: false,
+			// Heading sizes and table tweaks for the help pages.
+			customCss: ['./src/styles/help.css'],
 			components: {
 				Footer: './src/components/Footer.astro',
 			},

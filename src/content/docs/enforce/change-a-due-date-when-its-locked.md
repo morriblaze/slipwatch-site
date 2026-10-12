@@ -8,18 +8,12 @@ title: "Change a due date when it's locked"
 draft: true
 ---
 
-For: [Jira admins | managers | everyone]
-
-[One sentence: what this gets you.]
-
-**Use this when:** [one real situation, one or two lines]
-
-**Before you start:** [only real requirements, or a limit that could stop you. Delete this line if there are none.]
+**Before you begin:** [only real requirements, or a limit that could stop you. Delete this line if there are none.]
 
 1. [Action, with the exact on-screen words in **bold**. Add a screenshot if the screen changes.]
 2. [...]
 
-**You'll see:** [what success looks like, with a screenshot]
+[What the screen shows when it worked, in words that are true on any customer's project, then a screenshot at exactly the size it is shown.]
 
 **Good to know:** [the one catch, two lines at most]
 
