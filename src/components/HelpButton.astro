@@ -1,0 +1,17 @@
+---
+// The front page's "Read the help" button. It points at the Start here page, so on the
+// public site it only appears once that page is written (no longer "draft: true").
+import { getEntry } from 'astro:content';
+import { LinkButton } from '@astrojs/starlight/components';
+
+const startHere = await getEntry('docs', 'start-here');
+const show = startHere && (import.meta.env.DEV || !startHere.data.draft);
+---
+
+{
+	show && (
+		<LinkButton href="/start-here/" icon="right-arrow">
+			Read the help
+		</LinkButton>
+	)
+}
