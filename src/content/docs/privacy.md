@@ -3,7 +3,7 @@ title: "Privacy policy"
 description: "What Slipwatch and slipwatch.app keep, where it's kept, and who can see it."
 ---
 
-Last updated: 13 October 2026
+Last updated: 16 October 2026
 
 This policy covers Slipwatch, an app for Jira Cloud, and this website. Both are made by Morriblaze Ltd, a company registered in England and Wales (company number 16410763). Questions about privacy go to office@morriblaze.com.
 
@@ -21,8 +21,11 @@ Slipwatch reads the change history of the work items in the projects it covers, 
 - the work item's key, summary and work type, and its parent, such as an epic
 - the old and the new due date, and when the date changed
 - who changed it: their Atlassian account ID and display name
+- who the work item was assigned to when the date changed, and who holds it today: account ID and display name
 
-When someone gives a reason in Slipwatch, it also keeps the reason, its category, who gave it (account ID and display name) and when.
+When someone gives a reason in Slipwatch, it also keeps the reason, its category, who gave it (account ID and display name) and when. Every version of a reason is kept: nothing is overwritten.
+
+Names are kept as plain text, as Jira shows them. Slipwatch keeps no profile pictures and no email addresses.
 
 For each project, it keeps the project's Slipwatch settings: whether Slipwatch is on, which mode it uses, and the list of reasons people can choose from.
 
@@ -45,6 +48,7 @@ Inside your Jira site's Slipwatch installation, in storage that Atlassian runs f
 
 - While Slipwatch is installed, it keeps the record, so the report can show the whole history.
 - When a work item is deleted in Jira, Slipwatch deletes what it kept about it.
+- When an Atlassian account is closed, Slipwatch replaces that person's name with "Former user" on every record within 7 days of Atlassian telling it. The account ID stays, so the record of changes stays whole. Slipwatch asks Atlassian about every person it names once a week.
 - When an admin switches a project off, its record stays, unless they choose to delete it.
 - When Slipwatch is uninstalled, Atlassian keeps its data for 28 days, then deletes it.
 
