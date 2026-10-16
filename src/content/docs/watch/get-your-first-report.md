@@ -5,8 +5,7 @@
 screens: [project-tab-slipwatch, report-reading-history, report-all-changes]
 title: "Get your first report"
 # Rewritten 2026-10-13 on Joanna's review; rewritten again S19 part 10 (2026-10-16) for the rebuilt report.
-# Delete the next line when the page is ready to go public.
-draft: true
+#
 ---
 
 1. Open your project and select the **Slipwatch** tab.

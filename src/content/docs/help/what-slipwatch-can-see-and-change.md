@@ -4,8 +4,7 @@
 # the same names, for example report-empty.png.
 screens: []
 title: "What Slipwatch can see and change"
-# Written S19 part 10 (2026-10-16), from the manifest's scopes. Delete the next line when the page is ready to go public.
-draft: true
+# Written S19 part 10 (2026-10-16), from the manifest's scopes.
 ---
 
 When Slipwatch is installed, Atlassian lists the permissions it asks for. This is what Slipwatch does with each one, and what it never does.

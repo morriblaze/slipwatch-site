@@ -7,8 +7,7 @@ title: "Common questions"
 # Started at Sitting 1 (2026-10-12) as "Questions and problems", renamed 2026-10-13. Every sitting adds to it.
 # S19 part 10 (2026-10-16): the UTC entry went (every time is now the reader's own); the Free plan entry came in.
 # The list of links under the title must match the questions below: add a link with every new question.
-# Delete the next line when the page is ready to go public.
-draft: true
+#
 ---
 
 - [Why don't I see a Slipwatch tab?](#why-dont-i-see-a-slipwatch-tab)

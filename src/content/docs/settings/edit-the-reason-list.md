@@ -4,8 +4,7 @@
 # the same names, for example report-empty.png.
 screens: [settings-reasons, settings-comment]
 title: "Edit the reason list"
-# Written S19 part 10 (2026-10-16), from the rebuilt settings page (types and reasons, and the comment switch). Delete the next line when the page is ready to go public.
-draft: true
+# Written S19 part 10 (2026-10-16), from the rebuilt settings page (types and reasons, and the comment switch).
 ---
 
 **Before you begin:** only Jira admins can change Slipwatch's settings. Each project has its own list.

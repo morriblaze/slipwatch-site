@@ -4,8 +4,7 @@
 # the same names, for example report-empty.png.
 screens: [panel-no-reason, report-no-reason-list]
 title: "Fill in missing reasons"
-# Written S19 part 10 (2026-10-16), from the rebuilt panel and report. Delete the next line when the page is ready to go public.
-draft: true
+# Written S19 part 10 (2026-10-16), from the rebuilt panel and report.
 ---
 
 You can add a missing reason in two places: on the work item, or in the report.

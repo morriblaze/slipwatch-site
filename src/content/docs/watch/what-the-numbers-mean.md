@@ -4,8 +4,7 @@
 # the same names, for example report-empty.png.
 screens: [report-summary]
 title: "What the numbers mean"
-# Written S19 part 10 (2026-10-16), from the rules in src/report/report-rules.js. Delete the next line when the page is ready to go public.
-draft: true
+# Written S19 part 10 (2026-10-16), from the rules in src/report/report-rules.js.
 ---
 
 A few words first:

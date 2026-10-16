@@ -4,8 +4,7 @@
 # the same names, for example report-empty.png.
 screens: [report-export-menu, report-pdf-blocks]
 title: "Share the report"
-# Written S19 part 10 (2026-10-16), from the rebuilt report's exports. Delete the next line when the page is ready to go public.
-draft: true
+# Written S19 part 10 (2026-10-16), from the rebuilt report's exports.
 ---
 
 Anyone who can open the project can open its Slipwatch tab, so the simplest way to share is to send the project. To send the numbers themselves, download them.

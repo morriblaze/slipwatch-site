@@ -4,8 +4,7 @@
 # the same names, for example report-empty.png.
 screens: [reason-box]
 title: "When Slipwatch asks you for a reason"
-# Written S19 part 10 (2026-10-16), from the rebuilt reason box. Delete the next line when the page is ready to go public.
-draft: true
+# Written S19 part 10 (2026-10-16), from the rebuilt reason box.
 ---
 
 When you change a due date in a project that uses **Ask**, a box opens in the middle of the screen a moment later. It opens on whichever Jira page you're on: the work item, the board or the timeline.

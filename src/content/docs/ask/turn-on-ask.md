@@ -4,8 +4,7 @@
 # the same names, for example report-empty.png.
 screens: [settings-mode-cards]
 title: "Turn on Ask"
-# Written S19 part 10 (2026-10-16), from the rebuilt settings page. Delete the next line when the page is ready to go public.
-draft: true
+# Written S19 part 10 (2026-10-16), from the rebuilt settings page.
 ---
 
 **Before you begin:** only Jira admins can change Slipwatch's settings. Every new project starts on **Ask**, so you may not need to do anything.

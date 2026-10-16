@@ -4,8 +4,7 @@
 # the same names, for example report-empty.png.
 screens: [report-filter-row, report-picker-open]
 title: "Find who moved a deadline"
-# Written S19 part 10 (2026-10-16), from the rebuilt report's filter row. Delete the next line when the page is ready to go public.
-draft: true
+# Written S19 part 10 (2026-10-16), from the rebuilt report's filter row.
 ---
 
 1. Open your project's **Slipwatch** tab.

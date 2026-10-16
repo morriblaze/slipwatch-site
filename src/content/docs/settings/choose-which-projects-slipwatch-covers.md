@@ -4,8 +4,7 @@
 # the same names, for example report-empty.png.
 screens: [settings-watch-switch, settings-switch-off-panel]
 title: "Choose which projects Slipwatch covers"
-# Written S19 part 10 (2026-10-16), from the rebuilt settings page. Delete the next line when the page is ready to go public.
-draft: true
+# Written S19 part 10 (2026-10-16), from the rebuilt settings page.
 ---
 
 **Before you begin:** only Jira admins can change Slipwatch's settings. Slipwatch watches every project from the day it's installed, so you only need this page to switch a project off, or back on.

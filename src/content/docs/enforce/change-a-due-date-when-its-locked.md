@@ -4,8 +4,7 @@
 # the same names, for example report-empty.png.
 screens: [panel-change-due-date, reason-box-date]
 title: "Change a due date when it's locked"
-# Written S19 part 10 (2026-10-16), from the rebuilt panel and reason box. Delete the next line when the page is ready to go public.
-draft: true
+# Written S19 part 10 (2026-10-16), from the rebuilt panel and reason box.
 ---
 
 In a project that uses **Enforce**, Jira's own due date field is locked. Clicking it does nothing, and Jira shows no message. You change the date in Slipwatch instead, with a reason.

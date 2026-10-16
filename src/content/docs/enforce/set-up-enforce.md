@@ -4,8 +4,7 @@
 # the same names, for example report-empty.png.
 screens: [settings-enforce-card, wizard-check, wizard-lock, wizard-done, wizard-undo]
 title: "Set up Enforce"
-# Written S19 part 10 (2026-10-16), from the Enforce wizard. Delete the next line when the page is ready to go public.
-draft: true
+# Written S19 part 10 (2026-10-16), from the Enforce wizard.
 ---
 
 **Before you begin:**
