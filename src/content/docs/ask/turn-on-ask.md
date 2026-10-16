@@ -2,19 +2,24 @@
 # The screens this page shows. Readers never see this list. When a screen changes,
 # search the help for its name to find the pages to update. Screenshot files use
 # the same names, for example report-empty.png.
-screens: []
+screens: [settings-mode-cards]
 title: "Turn on Ask"
-# Not written yet (planned: Sitting 3). Delete the next line when the page is ready to go public.
+# Written S19 part 10 (2026-10-16), from the rebuilt settings page. Delete the next line when the page is ready to go public.
 draft: true
 ---
 
-**Before you begin:** [only real requirements, or a limit that could stop you. Delete this line if there are none.]
+**Before you begin:** only Jira admins can change Slipwatch's settings. Every new project starts on **Ask**, so you may not need to do anything.
 
-1. [Action, with the exact on-screen words in **bold**. Add a screenshot if the screen changes.]
-2. [...]
+1. In the project, go to **Space settings** > **Apps** > **Slipwatch**.
 
-[What the screen shows when it worked, in words that are true on any customer's project, then a screenshot at exactly the size it is shown.]
+2. Under **When a due date changes**, select **Ask**.
 
-**Good to know:** [the one catch, two lines at most]
+   **Ask** records the change and asks the person who changed the date for a reason, on whichever Jira page they are. It never blocks a change.
 
-**Next:** [link to the next job]
+   **Watch** records the change and asks nobody anything.
+
+From now on, whoever changes a due date in this project sees the reason box. See [When Slipwatch asks you for a reason](/ask/when-slipwatch-asks-you-for-a-reason/).
+
+**Good to know:** while **Enforce** is on, **Watch** and **Ask** can't be chosen. To leave Enforce, unlock due dates first. See [Set up Enforce](/enforce/set-up-enforce/).
+
+**Next:** [Edit the reason list](/settings/edit-the-reason-list/)

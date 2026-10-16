@@ -2,19 +2,32 @@
 # The screens this page shows. Readers never see this list. When a screen changes,
 # search the help for its name to find the pages to update. Screenshot files use
 # the same names, for example report-empty.png.
-screens: []
+screens: [report-export-menu, report-pdf-blocks]
 title: "Share the report"
-# Not written yet (planned: Sitting 2). Delete the next line when the page is ready to go public.
+# Written S19 part 10 (2026-10-16), from the rebuilt report's exports. Delete the next line when the page is ready to go public.
 draft: true
 ---
 
-**Before you begin:** [only real requirements, or a limit that could stop you. Delete this line if there are none.]
+Anyone who can open the project can open its Slipwatch tab, so the simplest way to share is to send the project. To send the numbers themselves, download them.
 
-1. [Action, with the exact on-screen words in **bold**. Add a screenshot if the screen changes.]
-2. [...]
+## One table
 
-[What the screen shows when it worked, in words that are true on any customer's project, then a screenshot at exactly the size it is shown.]
+On any block, select **Download CSV**. The file holds that table as you see it, filtered and sorted, with the hidden columns too. Open it in Excel or Google Sheets.
 
-**Good to know:** [the one catch, two lines at most]
+## Every table
 
-**Next:** [link to the next job]
+Select **Export** > **Download all tables (ZIP)**. You get one CSV file per block on your page.
+
+## A PDF for a manager
+
+1. Select **Export** > **Download PDF**.
+2. Under **Blocks in the PDF**, tick the blocks you want.
+3. Select **Download PDF**.
+
+The PDF is a summary, not a print of the page. Long lists show their first 10 rows and say how many more there are. Every page carries the project, the period and the filters. For the full list of changes, send the CSV.
+
+## A link to someone's missing reasons
+
+In **Changes with no reason**, set **Changed by** to the person, then select **Copy link**. The link opens the report with their list already filtered. See [Fill in missing reasons](/ask/fill-in-missing-reasons/).
+
+**Next:** [What the numbers mean](/watch/what-the-numbers-mean/)

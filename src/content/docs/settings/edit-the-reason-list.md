@@ -2,19 +2,33 @@
 # The screens this page shows. Readers never see this list. When a screen changes,
 # search the help for its name to find the pages to update. Screenshot files use
 # the same names, for example report-empty.png.
-screens: []
+screens: [settings-reasons, settings-comment]
 title: "Edit the reason list"
-# Not written yet (planned: Sitting 5). Delete the next line when the page is ready to go public.
+# Written S19 part 10 (2026-10-16), from the rebuilt settings page (types and reasons, and the comment switch). Delete the next line when the page is ready to go public.
 draft: true
 ---
 
-**Before you begin:** [only real requirements, or a limit that could stop you. Delete this line if there are none.]
+**Before you begin:** only Jira admins can change Slipwatch's settings. Each project has its own list.
 
-1. [Action, with the exact on-screen words in **bold**. Add a screenshot if the screen changes.]
-2. [...]
+People pick one reason from this list when a date moves. Reasons are grouped by type: **Internal**, **Dependency**, **External**, **Correction** and **Other** to start with.
 
-[What the screen shows when it worked, in words that are true on any customer's project, then a screenshot at exactly the size it is shown.]
+1. In the project, go to **Space settings** > **Apps** > **Slipwatch** and scroll to **Reasons**.
 
-**Good to know:** [the one catch, two lines at most]
+2. Change the list:
+   - To add a reason, type it in **New reason** under its type and select **Add**.
+   - To add a type, type it in **New type** under the list and select **Add type**. Then add its reasons.
+   - To rename a type or a reason, select **Rename**, type the new words and select **Save**.
+   - To take one off the list, select **Retire**. Select **Restore** to bring it back.
+   - To change the order, drag a type or a reason by its **⠿** handle.
 
-**Next:** [link to the next job]
+Each change is saved straight away. The reason box shows the new list the next time it opens.
+
+Renaming or retiring never changes a reason already given: it keeps the words it was saved with.
+
+**Correction** can be renamed but not retired. It's how people mark a date that was wrong rather than moved, and the report leaves those changes out of the numbers.
+
+## Require a comment
+
+Under **Comment**, turn the switch on if every reason must come with a written comment, for example in a regulated team. It's off to start with: a reason from the list is enough. **Other** always needs a comment.
+
+**Next:** [Set up Enforce](/enforce/set-up-enforce/)

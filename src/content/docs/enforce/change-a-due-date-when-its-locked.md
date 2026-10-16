@@ -2,19 +2,24 @@
 # The screens this page shows. Readers never see this list. When a screen changes,
 # search the help for its name to find the pages to update. Screenshot files use
 # the same names, for example report-empty.png.
-screens: []
+screens: [panel-change-due-date, reason-box-date]
 title: "Change a due date when it's locked"
-# Not written yet (planned: Sitting 4). Delete the next line when the page is ready to go public.
+# Written S19 part 10 (2026-10-16), from the rebuilt panel and reason box. Delete the next line when the page is ready to go public.
 draft: true
 ---
 
-**Before you begin:** [only real requirements, or a limit that could stop you. Delete this line if there are none.]
+In a project that uses **Enforce**, Jira's own due date field is locked. Clicking it does nothing, and Jira shows no message. You change the date in Slipwatch instead, with a reason.
 
-1. [Action, with the exact on-screen words in **bold**. Add a screenshot if the screen changes.]
-2. [...]
+1. Open the work item. On the right, open the **Slipwatch** panel and select **Change due date**.
 
-[What the screen shows when it worked, in words that are true on any customer's project, then a screenshot at exactly the size it is shown.]
+2. Under **New due date**, choose the date. The line under it shows today's due date.
 
-**Good to know:** [the one catch, two lines at most]
+3. Under **Reason**, choose why the date is moving. Add a few words under **Comment** if they help. A comment is optional, unless your project requires one or you chose **Other**.
 
-**Next:** [link to the next job]
+4. Select **Change due date**. The panel says **Due date changed. Your reason is saved.**
+
+If the box says the reason wasn't saved, don't change the date again: the date did move. The change is now listed with no reason, so add the reason there. See [Fill in missing reasons](/ask/fill-in-missing-reasons/).
+
+**Good to know:** the lock also stops people ranking the board or backlog, dragging bars on the timeline and bulk editing due dates.
+
+**Next:** [Find who moved a deadline](/watch/find-who-moved-a-deadline/)

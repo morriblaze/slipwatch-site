@@ -2,19 +2,29 @@
 # The screens this page shows. Readers never see this list. When a screen changes,
 # search the help for its name to find the pages to update. Screenshot files use
 # the same names, for example report-empty.png.
-screens: []
+screens: [report-filter-row, report-picker-open]
 title: "Find who moved a deadline"
-# Not written yet (planned: Sitting 2). Delete the next line when the page is ready to go public.
+# Written S19 part 10 (2026-10-16), from the rebuilt report's filter row. Delete the next line when the page is ready to go public.
 draft: true
 ---
 
-**Before you begin:** [only real requirements, or a limit that could stop you. Delete this line if there are none.]
+1. Open your project's **Slipwatch** tab.
 
-1. [Action, with the exact on-screen words in **bold**. Add a screenshot if the screen changes.]
-2. [...]
+2. In the row of pickers under **Due-date changes**, select the one you need:
 
-[What the screen shows when it worked, in words that are true on any customer's project, then a screenshot at exactly the size it is shown.]
+   - **Parent**, to find an epic: type its name or key.
+   - **Changed by**, for one person's changes.
+   - **Assignee**, for the work assigned to someone when the date changed.
+   - **Changed on**, for a period: **Last 7 days**, **Last 30 days**, **This month**, **Last month**, or your own dates under **Custom**.
+   - **Days moved**, for kinds of change: **Later**, **Later by 7 days or more**, **Earlier**, **Last-minute**, **For someone else** or **First due dates**.
+   - **Work type**, **Reason** and **Work items** (**All**, **Open** or **Done**).
 
-**Good to know:** [the one catch, two lines at most]
+3. Tick what you want and select **Apply**, or press Enter. The picker shows how many you chose, for example **Changed by: 2**.
 
-**Next:** [link to the next job]
+Every block on the page now counts only the matching changes. The line under the pickers says how many, for example **12 of 64 changes · 9 work items**. To start again, select **Clear all**.
+
+To see one work item's whole story, select its key in any table. Its Slipwatch panel lists every change to its due date.
+
+**Good to know:** **Changes with no reason** ignores these pickers on purpose: it's the project's to-do list. It has its own **Changed by** and **Assignee**.
+
+**Next:** [Share the report](/watch/share-the-report/)

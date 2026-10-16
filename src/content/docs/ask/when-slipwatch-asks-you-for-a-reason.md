@@ -2,19 +2,26 @@
 # The screens this page shows. Readers never see this list. When a screen changes,
 # search the help for its name to find the pages to update. Screenshot files use
 # the same names, for example report-empty.png.
-screens: []
+screens: [reason-box]
 title: "When Slipwatch asks you for a reason"
-# Not written yet (planned: Sitting 3). Delete the next line when the page is ready to go public.
+# Written S19 part 10 (2026-10-16), from the rebuilt reason box. Delete the next line when the page is ready to go public.
 draft: true
 ---
 
-**Before you begin:** [only real requirements, or a limit that could stop you. Delete this line if there are none.]
+When you change a due date in a project that uses **Ask**, a box opens in the middle of the screen a moment later. It opens on whichever Jira page you're on: the work item, the board or the timeline.
 
-1. [Action, with the exact on-screen words in **bold**. Add a screenshot if the screen changes.]
-2. [...]
+1. Read the title. It says which work item moved and by how much, for example **FLT-12's due date moved 7 days later**. Under it are the old and new dates, who changed the date and when.
 
-[What the screen shows when it worked, in words that are true on any customer's project, then a screenshot at exactly the size it is shown.]
+2. Under **Reason**, choose the reason that fits. Reasons are grouped by type, such as **Internal**, **Dependency** and **External**.
 
-**Good to know:** [the one catch, two lines at most]
+   Choose **Correction** if the date was simply wrong and nothing really moved. Slipwatch leaves corrections out of every number in the report.
 
-**Next:** [link to the next job]
+3. Add a few words under **Comment** if they help. A comment is optional, unless your project requires one or you chose **Other**.
+
+4. Select **Save reason**. The box says **Reason saved.**
+
+Not the right moment? Select **Not now**. The change waits in the work item's Slipwatch panel and in the report's **Changes with no reason**, so you can add the reason later. See [Fill in missing reasons](/ask/fill-in-missing-reasons/).
+
+**Good to know:** a reason is never overwritten. If you give a new one later, the box keeps the old one underneath, under **Earlier reason**.
+
+**Next:** [Fill in missing reasons](/ask/fill-in-missing-reasons/)
