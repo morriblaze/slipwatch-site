@@ -21,6 +21,8 @@ People pick one reason from this list when a date moves. Reasons are grouped by 
    - To take one off the list, select **Retire**. Select **Restore** to bring it back.
    - To change the order, drag a type or a reason by its **⠿** handle.
 
+   <img src="/screenshots/settings-reasons.png" width="630" height="313" alt="The Reasons list: types with their reasons, each with Rename and Retire, a New reason box under each type, and the New type box and Add type button outlined.">
+
 Each change is saved straight away. The reason box shows the new list the next time it opens.
 
 Renaming or retiring never changes a reason already given: it keeps the words it was saved with.
@@ -30,5 +32,7 @@ Renaming or retiring never changes a reason already given: it keeps the words it
 ## Require a comment
 
 Under **Comment**, turn the switch on if every reason must come with a written comment, for example in a regulated team. It's off to start with: a reason from the list is enough. **Other** always needs a comment.
+
+<img src="/screenshots/settings-comment.png" width="616" height="87" alt="The Comment switch, off: Optional. A reason from the list is enough.">
 
 **Next:** [Set up Enforce](/enforce/set-up-enforce/)

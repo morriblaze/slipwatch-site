@@ -12,6 +12,8 @@ When you change a due date in a project that uses **Ask**, a box opens in the mi
 
 1. Read the title. It says which work item moved and by how much, for example **FLT-12's due date moved 7 days later**. Under it are the old and new dates, who changed the date and when.
 
+   <img src="/screenshots/reason-box.png" width="568" height="433" alt="The reason box: FLT-48's due date moved 14 days later, a Reason list, a Comment box, and the Not now and Save reason buttons.">
+
 2. Under **Reason**, choose the reason that fits. Reasons are grouped by type, such as **Internal**, **Dependency** and **External**.
 
    Choose **Correction** if the date was simply wrong and nothing really moved. Slipwatch leaves corrections out of every number in the report.

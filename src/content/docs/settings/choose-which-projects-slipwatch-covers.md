@@ -16,9 +16,13 @@ Each project has its own Slipwatch settings.
 
 1. In the project, go to **Space settings** > **Apps** > **Slipwatch**.
 2. Under **Watch this project**, turn the switch off.
+
+   <img src="/screenshots/settings-watch-switch.png" width="630" height="111" alt="The Watch this project switch, outlined, turned on.">
 3. Choose what happens to what Slipwatch has recorded:
    - **Switch off and keep** keeps every change and reason. We recommend it.
    - **Switch off and delete** deletes every change and every reason recorded for the project. This can't be undone, so you type **delete** first.
+
+   <img src="/screenshots/settings-switch-off-panel.png" width="616" height="328" alt="Keep what's recorded? with the Switch off and keep and Switch off and delete buttons.">
 
 While a project is off, Slipwatch records nothing for it, and nobody can read its history from the report. The report still shows what was recorded before.
 

@@ -20,6 +20,8 @@ A few words first:
 
 Three columns: **Open (planned today)**, **Done (finished)** and **All**.
 
+<img src="/screenshots/report-summary.png" width="784" height="465" alt="The Summary block, with its Open, Done and All columns.">
+
 | Row | What it counts |
 |---|---|
 | **Work items** | Work items in the project, or touched by the filtered changes. |

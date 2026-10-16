@@ -12,9 +12,13 @@ In a project that uses **Enforce**, Jira's own due date field is locked. Clickin
 
 1. Open the work item. On the right, open the **Slipwatch** panel and select **Change due date**.
 
+   <img src="/screenshots/panel-change-due-date.png" width="483" height="125" alt="The top of the Slipwatch panel, with the Change due date button outlined.">
+
 2. Under **New due date**, choose the date. The line under it shows today's due date.
 
 3. Under **Reason**, choose why the date is moving. Add a few words under **Comment** if they help. A comment is optional, unless your project requires one or you chose **Other**.
+
+   <img src="/screenshots/reason-box-date.png" width="568" height="499" alt="The box for changing FLT-48's due date: New due date, Reason, Comment, and the Change due date button.">
 
 4. Select **Change due date**. The panel says **Due date changed. Your reason is saved.**
 

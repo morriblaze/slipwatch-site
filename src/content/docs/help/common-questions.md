@@ -2,7 +2,7 @@
 # The screens this page shows. Readers never see this list. When a screen changes,
 # search the help for its name to find the pages to update. Screenshot files use
 # the same names, for example report-empty.png.
-screens: [project-tabs-add-app, report-switched-off, settings-enforce-card]
+screens: [project-tabs-add-app, settings-free-card]
 title: "Common questions"
 # Started at Sitting 1 (2026-10-12) as "Questions and problems", renamed 2026-10-13. Every sitting adds to it.
 # S19 part 10 (2026-10-16): the UTC entry went (every time is now the reader's own); the Free plan entry came in.
@@ -46,6 +46,8 @@ When a work item gets its first due date, nothing moved, so it adds no days. It 
 ## Why can't I lock due dates on the Free plan?
 
 On the Free plan, Jira keeps permission rules but doesn't let anyone change them, so nothing can take **Schedule Issues** away from people. Enforce needs Jira Standard or higher. Watch and Ask work on every plan.
+
+<img src="/screenshots/settings-free-card.png" width="616" height="216" alt="The Enforce card on the Free plan: Enforce needs Jira Standard or higher.">
 
 ## Why did the project go back to Ask?
 

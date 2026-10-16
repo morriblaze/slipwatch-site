@@ -18,10 +18,15 @@ On any block, select **Download CSV**. The file holds that table as you see it, 
 
 Select **Export** > **Download all tables (ZIP)**. You get one CSV file per block on your page.
 
+<img src="/screenshots/report-export-menu.png" width="784" height="102" alt="The Export menu open: Download all tables (ZIP) and Download PDF.">
+
 ## A PDF for a manager
 
 1. Select **Export** > **Download PDF**.
 2. Under **Blocks in the PDF**, tick the blocks you want.
+
+   <img src="/screenshots/report-pdf-blocks.png" width="336" height="387" alt="The Download PDF box: a ticked list of blocks and the Download PDF button.">
+
 3. Select **Download PDF**.
 
 The PDF is a summary, not a print of the page. Long lists show their first 10 rows and say how many more there are. Every page carries the project, the period and the filters. For the full list of changes, send the CSV.

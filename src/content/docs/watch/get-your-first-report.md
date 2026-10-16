@@ -2,18 +2,22 @@
 # The screens this page shows. Readers never see this list. When a screen changes,
 # search the help for its name to find the pages to update. Screenshot files use
 # the same names, for example report-empty.png.
-screens: [project-tab-slipwatch, report-reading-history, report-history-read, report-all-changes]
+screens: [project-tab-slipwatch, report-reading-history, report-all-changes]
 title: "Get your first report"
 # Rewritten 2026-10-13 on Joanna's review; rewritten again S19 part 10 (2026-10-16) for the rebuilt report.
-# The three screenshots are of the old page and are retaken from the new one. Delete the next line when the page is ready to go public.
+# Delete the next line when the page is ready to go public.
 draft: true
 ---
 
 1. Open your project and select the **Slipwatch** tab.
 
+   <img src="/screenshots/project-tab-slipwatch.png" width="745" height="116" alt="A Jira project's tabs, with the Slipwatch tab outlined.">
+
    No tab, or a message saying Slipwatch is switched off? See [Common questions](/help/common-questions/).
 
 2. Slipwatch records due-date changes from the day it's installed. To add the older ones from Jira's history, select **Read this project's history**. You only need to do this once for each project.
+
+   <img src="/screenshots/report-reading-history.png" width="784" height="80" alt="The Read this project's history button, outlined. Below it, a blue message: Reading history: 50 of about 72 work items.">
 
    The blue message counts the work items read so far, for example **Reading history: 50 of about 72 work items.** You can leave the page; reading carries on without you.
 
@@ -24,6 +28,8 @@ The page is a column of blocks, starting with **Summary**. Each block has its ow
 ## What each column shows in All due-date changes
 
 Each row is one due-date change, newest first.
+
+<img src="/screenshots/report-all-changes.png" width="784" height="398" alt="The All due-date changes table: work item, summary, who changed it, assignee, when, old and new date, days moved, last-minute and reason.">
 
 | Column | What it shows |
 |---|---|

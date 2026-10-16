@@ -16,6 +16,8 @@ draft: true
 
    **Ask** records the change and asks the person who changed the date for a reason, on whichever Jira page they are. It never blocks a change.
 
+   <img src="/screenshots/settings-mode-cards.png" width="616" height="256" alt="The three cards under When a due date changes: Watch, Ask (chosen and outlined) and Enforce, which shows Not on.">
+
    **Watch** records the change and asks nobody anything.
 
 From now on, whoever changes a due date in this project sees the reason box. See [When Slipwatch asks you for a reason](/ask/when-slipwatch-asks-you-for-a-reason/).

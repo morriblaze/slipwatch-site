@@ -12,6 +12,8 @@ draft: true
 
 2. In the row of pickers under **Due-date changes**, select the one you need:
 
+   <img src="/screenshots/report-filter-row.png" width="784" height="86" alt="The report's row of pickers, outlined: Assignee, Changed by, Work type, Parent, Changed on, Days moved, Reason and Work items.">
+
    - **Parent**, to find an epic: type its name or key.
    - **Changed by**, for one person's changes.
    - **Assignee**, for the work assigned to someone when the date changed.
@@ -20,6 +22,8 @@ draft: true
    - **Work type**, **Reason** and **Work items** (**All**, **Open** or **Done**).
 
 3. Tick what you want and select **Apply**, or press Enter. The picker shows how many you chose, for example **Changed by: 2**.
+
+   <img src="/screenshots/report-picker-open.png" width="784" height="234" alt="The Changed by picker open: a search box, a ticked list of people with their counts, and Clear and Apply.">
 
 Every block on the page now counts only the matching changes. The line under the pickers says how many, for example **12 of 64 changes · 9 work items**. To start again, select **Clear all**.
 
